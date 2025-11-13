@@ -18,3 +18,15 @@ This repository demonstrates how to track machine learning experiments remotely 
 1. **Install Dependencies**
    ```bash
    pip install "mlflow<3" seaborn dagshub scikit-learn matplotlib
+
+2. **Run the Experiment**
+    ```bash
+    python experiment_remoteDAGSHub.py
+
+3. **Check your DAGSHub Dashboard**
+    After the run completes, visit your [DAGSHub MLFlow UI](https://dagshub.com/rkydx/MLOPS-remoteMLflow_DAGSHub.mlflow) to explore the run details.
+
+## Files
+    - experiment_remoteDAGSHub.py: Main script for training and logging the model.
+    - confusion_matrix.png: Logged as an artifact to visualize prediction performance.
+    - README.md: Explains the repository's purpose and usage.
