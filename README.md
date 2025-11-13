@@ -27,6 +27,6 @@ This repository demonstrates how to track machine learning experiments remotely 
     After the run completes, visit your [DAGSHub MLFlow UI](https://dagshub.com/rkydx/MLOPS-remoteMLflow_DAGSHub.mlflow) to explore the run details.
 
 ## Files
-    - experiment_remoteDAGSHub.py: Main script for training and logging the model.
-    - confusion_matrix.png: Logged as an artifact to visualize prediction performance.
-    - README.md: Explains the repository's purpose and usage.
+ - experiment_remoteDAGSHub.py: Main script for training and logging the model.
+ - confusion_matrix.png: Logged as an artifact to visualize prediction performance.
+ - README.md: Explains the repository's purpose and usage.
